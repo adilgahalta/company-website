@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Carousel } from "flowbite-react";
 export default function Home() {
   return (
     // Hero
@@ -81,6 +82,29 @@ export default function Home() {
               className="flex-shrink-0"
             />
           </div>
+        </div>
+      </div>
+      <div className="text-center bg-[#FFF455] py-40">
+        <b className="text-[32px]">Our Testimonial</b>
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 text-center sm:px-56  ">
+          <Carousel slideInterval={5000}>
+            <div>
+              Kerennn 🙀 <br />
+              Anonymous{" "}
+            </div>
+            <div>
+              Keren Banget 🤩🤩🤩 <br />
+              Asep{" "}
+            </div>
+            <div>
+              Toko terbaik nich ⭐️⭐️⭐️⭐️⭐️ <br />
+              Maemunah{" "}
+            </div>
+            <div>
+              Ok <br />
+              Anonymous
+            </div>
+          </Carousel>
         </div>
       </div>
     </div>
