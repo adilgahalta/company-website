@@ -50,7 +50,7 @@ const Products: NextPage = () => {
             <h2 className="text-xl font-bold">{product.title}</h2>
             <p className="mt-2">{product.description}</p>
             <p className="mt-2 text-lg font-semibold text-center">
-              IDR.{product.price}K
+              IDR. {product.price.toLocaleString("id-ID")}
             </p>
             <button></button>
           </div>
